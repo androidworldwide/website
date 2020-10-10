@@ -1,0 +1,88 @@
+@font-face
+{
+    font-family: 'Product Sans';
+    src: url('../font/product_sans.ttf');
+}
+
+@font-face
+{
+    font-family: 'Product Sans Bold';
+    src: url('../font/product_sans_bold.ttf');
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Product Sans', sans-serif;
+}
+
+body
+{
+    background-color: #19323C !important;
+}
+
+a, a:hover
+{
+    color: #212529 !important;
+    text-decoration: none !important;
+}
+
+.logos-container
+{
+    flex-basis: 1;
+}
+
+.androidww-description h5
+{
+    line-height: 1.5;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.btn-twitter
+{
+    background: #1DA1F2 !important;
+    color: white !important;
+    margin-top: 1.5em;
+}
+
+.btn-slack
+{
+    background: white !important;
+    color: #19323C !important;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+.footer-container
+{
+    background: white;
+}
+
+@media (max-width: 991.98px)
+{
+    .showcase
+    {
+        height: 350px !important;
+    }
+}
+
+@media (max-width: 575.98px)
+{
+
+    .header-androidww-logo
+    {
+        width: 100%;
+    }
+
+    .logos-container
+    {
+        flex-basis: auto !important;
+    }
+
+    .androidww-description h5
+    {
+        font-size: 1.1rem;
+    }
+
+}
