@@ -39,6 +39,11 @@ a, a:hover
     font-size: 1.3rem;
 }
 
+.btn
+{
+    padding: 12px 20px !important;
+}
+
 .btn-twitter
 {
     background: #1DA1F2 !important;
