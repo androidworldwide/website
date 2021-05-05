@@ -1,10 +1,5 @@
 # Android Worldwide
 
-Android Worldwide is an international collective of developer communities who like to put on a recurring special event for Android Devs, and related engineering specialties.
 This repo hosts the code for the main website, at [Android Worldwide ](https://android-worldwide.com/)
 
-
-License
-----
-
-MIT
+*First time contributing to an open source repository?* [Here is a guide for creating your first pull request :)](https://opensource.com/article/19/7/create-pull-request-github)
