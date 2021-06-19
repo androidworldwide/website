@@ -1,0 +1,169 @@
+$primary-color: #3DDC84;
+$text-color: #434343;
+
+@font-face
+{
+    font-family: 'Gilroy Sans';
+    src: url('../fonts/Gilroy-ExtraBold.otf') format('opentype');
+    font-display: swap;
+}
+
+@font-face
+{
+    font-family: 'Source Sans Pro';
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+}
+
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $text-color;
+    font-size: 1.2rem;
+    line-height: 2;
+    overflow-x: hidden;
+
+    h1, h2, h3, h4, h5, h6
+    {
+        font-family: 'Gilroy Sans', sans-serif;
+        line-height: 1.5;
+    }
+
+    h2
+    {
+        font-size: 2.75rem;
+    }
+
+    h4
+    {
+        font-size: 1.75rem;
+    }
+}
+
+.siteheader
+{
+    background: white;
+
+    .siteheader-logo
+    {
+        font-size: 1.75rem;
+        font-family: 'Gilroy Sans', sans-serif;
+        font-weight: 900;
+        color: $text-color;
+
+        .highlight
+        {
+            color: $primary-color;
+        }
+    }
+
+    .siteheader-navbar .nav-link
+    {
+        font-size: 1.25rem;
+        font-family: 'Gilroy Sans';
+        font-weight: 900;
+        color: $text-color;
+    }
+
+    .siteheader-navbar .nav-link.aww-underline
+    {
+        position: relative;
+        z-index: 2;
+
+        &::after
+        {
+            content: '';
+            position: absolute;
+            bottom: 0.6rem;
+            left: 0.2rem;
+            right: 0.2rem;
+            height: 1em;
+            z-index: -1;
+            opacity: 0.5;
+            background-image: url('../img/underline.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+}
+
+main
+{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    .masthead-container
+    {
+        min-height: 100%;
+
+        .masthead
+        {
+            height: 100%;
+            padding-top: 15rem;
+
+            .aww-underline
+            {
+                position: relative;
+
+                &::after
+                {
+                    content: '';
+                    position: absolute;
+                    bottom: -0.75rem;
+                    left: 0;
+                    right: 0;
+                    height: 2.5rem;
+                    z-index: -1;
+                    opacity: 0.5;
+                    background-image: url('../img/underline.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+
+            .sponsors-container
+            {
+                padding-top: 10rem;
+
+                img
+                {
+                    padding: 2rem 0;
+                }
+            }
+
+            .masthead-link
+            {
+                font-size: 1.25rem;
+                font-family: 'Gilroy Sans';
+                font-weight: 900;
+                text-decoration: none;
+                color: $text-color;
+                position: relative;
+
+                &::after
+                {
+                    content: '';
+                    position: absolute;
+                    bottom: -0.1rem;
+                    left: 0;
+                    right: 0;
+                    height: 1.5rem;
+                    z-index: -1;
+                    opacity: 0.5;
+                    background-image: url('../img/underline.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+
+    .content-container
+    {
+        padding: 10rem 0;
+    }
+}
