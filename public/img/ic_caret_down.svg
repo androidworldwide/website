@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-ic_caret_right">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="ic_caret_right" clip-path="url(#clip-ic_caret_right)">
+    <path id="Icon_awesome-chevron-down" data-name="Icon awesome-chevron-down" d="M11.23,9.061.776,19.515a1.291,1.291,0,0,0,0,1.826L2,22.56a1.291,1.291,0,0,0,1.824,0l8.324-8.285,8.324,8.285a1.291,1.291,0,0,0,1.824,0l1.219-1.219a1.291,1.291,0,0,0,0-1.826L13.056,9.061A1.291,1.291,0,0,0,11.23,9.061Z" transform="translate(24.143 27.811) rotate(180)" fill="#3ddc84"/>
+  </g>
+</svg>

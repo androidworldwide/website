@@ -122,5 +122,47 @@ main .masthead-container .masthead .masthead-link::after {
 main .content-container {
   padding: 10rem 0;
 }
+main .content-container .partners-layout span {
+  margin: 0.5rem 0;
+}
+main .content-container .caption {
+  font-size: 1.2rem;
+  color: #3DDC84;
+  font-weight: 600;
+  font-family: "Gilroy Sans", sans-serif;
+}
+main .content-container .faqitem {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+main .content-container .faqitem img {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin: 0 1rem 0.5rem 1rem;
+  transition: transform 0.2s ease;
+}
+main .content-container .faqitem img.flipped {
+  transform: rotate(-180deg);
+}
+main .content-container .branded {
+  color: #3DDC84;
+}
+main .content-container .highlight {
+  color: #434343;
+  position: relative;
+}
+main .content-container .highlight::after {
+  content: "";
+  position: absolute;
+  bottom: -0.33rem;
+  left: 0;
+  right: 0;
+  height: 1.5rem;
+  z-index: -1;
+  opacity: 0.5;
+  background-image: url(../img/underline.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
