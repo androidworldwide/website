@@ -5,4 +5,9 @@ $('.faqitem').click(function()
     $('#' + clickedFaqId).next().collapse('toggle');
 
     $('#' + clickedFaqId + ' > img').toggleClass('flipped')
+
+    // $('#' + clickedFaqId).nextUntil('.spacer').toggleClass('expanded');
+
+
+    $('#' + clickedFaqId).next().next().toggleClass('expanded');
 });
